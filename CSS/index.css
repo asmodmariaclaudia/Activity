@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.image1 > img{
+    height: 100%;
+}
+
+/* container1 */
+.sectionOne{
+    box-sizing: border-box;
+    border: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    text-align: start;
+    padding: 2%;
+}
+
+.UpLeft > h1{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.UpLeft > p{
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
+.UpLeft > button{
+    border: none;
+    font-size: 18px;
+    padding: 1%;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+/* p{
+    padding: 1%;
+    margin: 2%;
+} */
+
+/* container2 */
+.sectionTwo{
+    border: none;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.down > h1{
+    font-family: "Poppins", sans-serif;
+}
+
+ul{
+    box-sizing: border-box;
+}
+
+.ul, .ul2, .ul3{
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline-block;
+    max-width: 30%;
+    border: solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+.img1{
+    align-items: center;
+    height: 60%;
+    width: 80%;
+}
+
+.btn1{
+    background-color: aqua;
+}
