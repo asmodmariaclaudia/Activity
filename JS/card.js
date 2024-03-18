@@ -1,7 +1,8 @@
 const sect2Down = (twoTitle, image1, para1, button1, image2, para2, button2,image3, para3, button3) => {
     let div = document.createElement("div")
     div.className = "down"
-    div.innerHTML = `<h1>${twoTitle}</h1>
+    div.innerHTML = `
+                    <h1>${twoTitle}</h1>
                     <ul class="ul">
                         <li><img src="./images/${image1}" class="img1"></li>
                         <li>${para1}</li>
@@ -19,6 +20,8 @@ const sect2Down = (twoTitle, image1, para1, button1, image2, para2, button2,imag
                         <li>${para3}</li>
                         <li><button class="btn1">${button3}</button></li>
                     </ul>
+
+                    <br><br>
                      
     `
     return div
