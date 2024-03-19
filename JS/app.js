@@ -21,7 +21,7 @@ const sectTwo = {
     button2: "Chapter 488",
     sect2img2: "dokja3.jpg",
     //box3
-    para3: "&#34;Han Sooyoung wrote the story. Yoo Joonghyuk lived that story. And, I read that very story. And that’s how this world barely managed to reach its completion.&#34;",
+    para3: "&#34;Han Sooyoung wrote the story. Yoo Joonghyuk lived that story. And, I read that very story. And that&#39;s how this world barely managed to reach its completion.&#34;",
     button3: "Chapter 536",
     sect2img3: "dokja4.jpg",
 }
